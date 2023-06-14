@@ -6,11 +6,7 @@ class HomeModule extends Module {
   @override
   List<ModularRoute> get routes => [
         ChildRoute(
-          Routes.home,
-          child: (_, args) => const HomePage(),
-        ),
-        ChildRoute(
-          Routes.start,
+          Modular.initialRoute,
           child: (_, args) => const HomePage(),
         ),
       ];
