@@ -3,12 +3,12 @@ import 'package:chat_firebase_dio/app/shared/constants/routes.dart';
 import 'package:chat_firebase_dio/app/modules/home/presenter/home_page.dart';
 import 'package:chat_firebase_dio/app/modules/customer/presenter/customer_page.dart';
 
-class HomeModule extends Module {
+class CustomerModule extends Module {
   @override
   List<ModularRoute> get routes => [
         ChildRoute(
           Modular.initialRoute,
-          child: (_, args) => const HomePage(),
+          child: (_, args) => const CustomerPage(),
         ),
         ChildRoute(
           Routes.customer,

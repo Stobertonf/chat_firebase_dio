@@ -21,14 +21,18 @@ dev_dependencies:
 
  
   uuid: ^3.0.6
+  validatorless: ^1.2.3
   flutter_lints: ^2.0.0
+  auto_size_text: ^3.0.0
   firebase_core: ^1.24.0
   cloud_firestore: ^3.5.1
   flutter_modular: ^5.0.3
+  cpf_cnpj_validator: ^2.0.0
   firebase_analytics: ^9.3.8
   firebase_messaging: ^13.1.0
   firebase_crashlytics: ^2.9.0
   firebase_remote_config: ^2.0.20
+  mask_text_input_formatter: ^2.4.0
 
 flutter:
 
