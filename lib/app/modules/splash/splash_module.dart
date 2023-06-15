@@ -1,6 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:chat_firebase_dio/app/shared/constants/routes.dart';
 import 'package:chat_firebase_dio/app/modules/home/presenter/home_page.dart';
+import 'package:chat_firebase_dio/app/modules/login/presenter/login_page.dart';
 import 'package:chat_firebase_dio/app/modules/splash/presenter/splash_screen.dart';
 import 'package:chat_firebase_dio/app/modules/customer/presenter/customer_page.dart';
 
@@ -10,6 +11,10 @@ class SplashModule extends Module {
         ChildRoute(
           Modular.initialRoute,
           child: (_, args) => const SplashScreen(),
+        ),
+        ChildRoute(
+          Routes.login,
+          child: (_, args) => LoginPage(),
         ),
         ChildRoute(
           Routes.home,

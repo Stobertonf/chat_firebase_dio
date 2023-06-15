@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen>
         Tween<double>(begin: 0.0, end: 1.0).animate(_animationController!);
     _animationController!.forward().whenComplete(
       () {
-        Modular.to.pushReplacementNamed(Routes.home);
+        Modular.to.pushReplacementNamed(Routes.login);
       },
     );
   }
