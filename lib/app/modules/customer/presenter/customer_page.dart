@@ -352,7 +352,7 @@ class _CustomerPageState extends State<CustomerPage> {
                                       color: Colors.white,
                                     ),
                                   ),
-                                  backgroundColor: Colors.red[400],
+                                  backgroundColor: Colors.deepOrange,
                                 ),
                                 child: const AutoSizeText(
                                   'SALVAR',
@@ -382,18 +382,18 @@ class _CustomerPageState extends State<CustomerPage> {
                                   shape: const RoundedRectangleBorder(
                                     side: BorderSide(
                                       width: 1.5,
-                                      color: Colors.red,
+                                      color: Colors.deepOrange,
                                     ),
                                   ),
                                   backgroundColor: Colors.white,
                                 ),
-                                child: AutoSizeText(
+                                child: const AutoSizeText(
                                   'VOLTAR',
                                   style: TextStyle(
                                     height: 1,
                                     fontSize: 30,
                                     fontFamily: 'Poppins',
-                                    color: Colors.red[400],
+                                    color: Colors.deepOrange,
                                   ),
                                 ),
                               ),
