@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:chat_firebase_dio/app/modules/chat/chat_page.dart';
 import 'package:chat_firebase_dio/app/modules/customer/presenter/customer_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -47,7 +48,7 @@ class _HomePageState extends State<HomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const CustomerPage(),
+                      builder: (context) => const ChatPage(),
                     ),
                   );
                 },
@@ -82,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const CustomerPage(),
+                      builder: (context) => const ChatPage(),
                     ),
                   );
                 },
@@ -117,7 +118,7 @@ class _HomePageState extends State<HomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const CustomerPage(),
+                      builder: (context) => const ChatPage(),
                     ),
                   );
                 },
@@ -152,7 +153,7 @@ class _HomePageState extends State<HomePage> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => const CustomerPage(),
+                      builder: (context) => const ChatPage(),
                     ),
                   );
                 },
