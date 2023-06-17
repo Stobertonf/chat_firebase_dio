@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen>
         Tween<double>(begin: 0.0, end: 1.0).animate(_animationController!);
     _animationController!.forward().whenComplete(
       () {
-        Modular.to.pushReplacementNamed(Routes.login);
+        Modular.to.pushReplacementNamed(Routes.home);
       },
     );
   }
@@ -87,7 +87,7 @@ class _SplashScreenState extends State<SplashScreen>
                           height: 10.0,
                           width: _animation!.value * 200.0,
                           decoration: BoxDecoration(
-                            color: Colors.yellow,
+                            color: Colors.deepOrange,
                             borderRadius: BorderRadius.circular(
                               5.0,
                             ),
