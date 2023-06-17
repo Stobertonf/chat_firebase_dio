@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:chat_firebase_dio/app/modules/customer/presenter/customer_page.dart';
 //import 'package:firebase_auth/firebase_auth.dart';
 //import 'package:google_sign_in/google_sign_in.dart';
 
@@ -90,7 +91,15 @@ class LoginPage extends StatelessWidget {
               height: 16,
             ),
             OutlinedButton.icon(
-              onPressed: () async {},
+              onPressed: () async {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const CustomerPage(),
+                  ),
+                );
+              },
+
               /*{
                 final UserCredential? userCredential =
                     await _signInWithGoogle();
